@@ -1,0 +1,45 @@
+.nav {
+    background-color: white;
+    height: 5rem;
+
+.navbar{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+
+    &_logo {
+        width: 4rem;
+        
+       img {
+        width: 100%;
+       }
+    }
+
+    &_links {
+        display: flex;
+
+        &-link {
+            margin: 0 1.5rem;
+
+            a{
+                text-decoration: none;
+                color: #111;
+                padding: 0.75rem 0;
+
+                &:hover {
+                    border-bottom: 2px solid #111;
+                    
+                }
+            }
+        }
+    }
+}
+}
+
+.container {
+    margin: auto 3rem;
+    box-sizing: border-box;
+}

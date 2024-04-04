@@ -52,15 +52,20 @@ p, h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
-hero
+h1, p {
+  font-family: "poppins", sans-serif;
+}
+
 .hero {
-  max-width: 1600px;
+  max-width: 100%;
   width: 100%;
   height: 90vh;
   display: flex;
+  align-items: center;
   background-image: url("/assets/bg.png");
   background-size: cover;
   background-position: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
 }
 .hero_content {
   display: flex;
@@ -68,19 +73,18 @@ hero
   margin: 100px;
 }
 .hero_content h1 {
-  max-width: 300px;
+  max-width: 40%;
   width: 100%;
-  font-size: 60px;
+  font-size: 5rem;
   color: #fff;
-  line-height: 60px;
   margin-bottom: 20px;
 }
 .hero_content p {
-  max-width: 500px;
+  max-width: 40%;
   width: 100%;
-  font-size: 15px;
+  font-size: 1.5rem;
   color: #fff;
-  line-height: 30px;
+}
 
 .nav {
   background-color: white;
@@ -235,23 +239,31 @@ hero
 }
 
 .hero {
-  background: url("/assets/bg.png") center center/cover;
+  max-width: 100%;
+  width: 100%;
   height: 90vh;
   display: flex;
+  align-items: center;
+  background-image: url("/assets/bg.png");
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
 }
-.hero .hero_content {
+.hero_content {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  margin: 100px;
 }
-.hero .hero_content h1 {
-  width: 50%;
+.hero_content h1 {
+  max-width: 40%;
+  width: 100%;
+  font-size: 5rem;
   color: #fff;
-  font-size: 4rem;
+  margin-bottom: 20px;
 }
-.hero .hero_content p {
+.hero_content p {
+  max-width: 40%;
+  width: 100%;
   font-size: 1.5rem;
   color: #fff;
-  width: 50%;
- Testing
 }/*# sourceMappingURL=style.css.map */
